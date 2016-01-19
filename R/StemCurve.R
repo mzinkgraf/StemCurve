@@ -1,4 +1,7 @@
-#calculate bending for timelaps vidoes
+# Matthew Zinkgraf, last modified January 2016
+# UC Davis 
+#
+# This script processes text files from digitized images from timelaps videos. The plants were gravistimulated for 14 days. Stems were traced in imageJ and outputed as a text file.
 
 directory<-"Data"
 
@@ -7,7 +10,7 @@ require(plyr)
 require(ggplot2)
 
 #get list of directories
-dir<-dir(directory,pattern="717|35s37|miRNA|T2")
+dir<-dir(directory,pattern="717")
 
 #build table of metadata
 meta<-data.frame(matrix(vector(), length(dir), 5, dimnames=list(c(), c("dir","genotype","tree","data","treatment"))), stringsAsFactors=F)
