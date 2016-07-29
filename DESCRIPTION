@@ -6,4 +6,5 @@ Date: 2016-01-19
 Author: Matt Zinkgraf
 Maintainer: Matt Zinkgraf <mzinkgraf@gmail.com>
 Description: Analysis of digitized time lapse photos of poplar stems that were placed horizontal for 14 days.  
+Suggests: sp
 License: GPL-2
